@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+   <style>
+   p {
+	padding: .5em 0 .2em 0;
+	line-height: 1.1;
+	font-family: 'Titillium Web', sans-serif;
+		font-size: 15px;
+	font-weight = 500;
+	color: #222222;
+  }
+  #awesome_video {    <!---------------------------------------------------------------------------CUSTOM BG VIDEO//------------------------------>
+    position:fixed;
+    top: 0;
+    left: 0;
+    border: 0;
+       z-index:-9999;
+    height: 100%;
+	width:100%;
+	 overflow-y: hidden;
+	 min-width:100%;
+	 min-height:100%;
+	
+  }
+	#videoWrap{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+	</head>
+<body class='short-header-page wsite-background  wsite-theme-light'>
+	<div id="videoWrap">
+<iframe id="awesome_video" src="https://www.youtube-nocookie.com/embed/CjQu9OzTr0s?rel=0&amp;controls=0&amp;showinfo=0?rel=0&autoplay=1&loop=1&playlist=CjQu9OzTr0s" frameborder="0"></iframe>    </div>
+   <div id="header-wrap">
+		<div class="container">			
+				<table id="header">
+					<tr> 
+						<td class="phone-number">{phone:text}</td>
+						<td id="header-right">
+							<table>
+								<tr>								
+									<td class="social">{social}</td>
+									<td class="search">{search}</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>			
+		</div><!-- end container -->
+		
+		<div id="nav-wrap">			
+			<div class="container">					
+				<table>
+					<tr>
+						<td id="logo">{logo}</td>
+						<td id="nav">{menu}</td>
+					</tr>
+				</table>
+			</div><!-- end container -->			
+		</div><!-- end nav-wrap -->
+	</div><!-- end header-wrap --> 
+
+    <div id="banner-wrap">
+        <div class="container">
+            <div id="banner">
+            
+                <div class="wsite-header"></div>
+                
+                <div style="clear:both;"></div>
+            </div><!-- end banner -->
+        </div><!-- end container -->
+    </div><!-- end banner-wrap -->
+
+    <div id="main-wrapDark">
+        <div class="container">
+   			{content}
+        </div><!-- end container -->
+    </div><!-- end main-wrap -->
+
+    <div id="footer-wrap">
+        <div class="container">
+       		{footer}
+        </div><!-- end container -->
+    </div><!-- end footer-wrap -->
+	
+	
+	
+	<div>                                                  <!-- custom footer http://www.webnots.com/remove-free-weebly-footer-and-customize-with-links/ -->
+		<div>
+		</div>
+	</div>
+	
+	
+</body>
+
+</html>
+
+<style type="text/css">                          <!--Remove footer from mobile version-->
+@media screen {
+.wsite-footer {
+display: none;
+visibility: hidden;
+}
+
+	.wsite-footer-vertical 
+{
+display: none;
+visibility: hidden;
+}
+.wsite-app-callout
+{
+display: none;
+visibility: hidden;
+}
+
+}
+</style>

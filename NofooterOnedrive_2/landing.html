@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600' rel='stylesheet' type='text/css'>
+<style>
+body{
+padding: .5em0 .2em 0
+	line-height: 1.1;
+	font-family: 'Titillium Web, sans-serif;
+		font-size: 15px;
+	font-weight = 500;
+	color: #222222;
+}
+p {
+	padding: .5em0 .2em 0
+	line-height: 1.1;
+	font-family: 'Titillium Web:400, sans-serif;
+		font-size: 15px;
+	font-weight = 500;
+	color: #222222;
+}
+</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+
+
+<body class='landing-page wsite-background  wsite-theme-light'>
+<style>
+p {
+	padding: .5em 0 .2em 0
+	line-height: 1.1;
+	font-family: 'Titillium Web', sans-serif;
+		font-size: 15px;
+	font-weight = 500;
+	color: #222222;
+}
+
+</style>
+   <div id="header-wrap">
+		<div class="container">			
+				<table id="header">
+					<tr> 
+						<td class="phone-number">{phone:text}</td>
+						<td id="header-right">
+							<table>
+								<tr>								
+									<td class="social">{social}</td>
+									<td class="search">{search}</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>			
+		</div><!-- end container -->
+		
+		<div id="nav-wrap">			
+			<div class="container">					
+				<table>
+					<tr>
+						<td id="logo">{logo}</td>
+						<td id="nav">{menu}</td>
+					</tr>
+				</table>
+			</div><!-- end container -->			
+		</div><!-- end nav-wrap -->
+	</div><!-- end header-wrap --> 
+
+    <div id="banner-wrap">
+        <div class="container">
+            <div id="banner">
+            
+                <div id="bannerleft">
+                	<div class="wsite-header"></div>
+                </div><!-- end banner-left -->
+                <div class="right-align landing-banner-outer">
+					<div id="bannerright" class="landing-banner-mid">
+						<div class="landing-banner-inner">
+							<h2>{headline:text global="false"}</h2>
+							<p>{headline-paragraph:text global="false"}</p>
+							{action:button global="false"}
+						</div><!-- end banner inner -->
+					</div><!-- end right align -->
+				</div><!-- end banner-right -->
+               
+                <div style="clear:both;"></div>
+            </div><!-- end banner -->
+        </div><!-- end container -->
+    </div><!-- end banner-wrap -->
+
+    <div id="main-wrap">
+        <div class="container">
+   			{content}
+        </div><!-- end container -->
+    </div><!-- end main-wrap -->
+
+    <div id="footer-wrap" style="content:hidden">
+        <div class="container">
+       		{footer}
+        </div><!-- end container -->
+    </div><!-- end footer-wrap -->
+	
+	<div>                                                  <!-- custom footer http://www.webnots.com/remove-free-weebly-footer-and-customize-with-links/ -->
+		<div>
+		</div>
+	</div>
+</body>
+
+</html>
+
+<style type="text/css">                          <!--Remove footer from mobile version-->
+@media screen {
+.wsite-footer {
+display: none;
+visibility: hidden;
+}
+
+	.wsite-footer-vertical 
+{
+display: none;
+visibility: hidden;
+}
+.wsite-app-callout
+{
+display: none;
+visibility: hidden;
+}
+
+}
+</style>

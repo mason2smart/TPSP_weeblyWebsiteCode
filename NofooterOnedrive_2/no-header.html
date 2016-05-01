@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+<style>
+p {font-family: 'Architects Daughter', cursive;}
+@font-face { font-family: ArchitectsDaughter; src: url('\Assets\ArchitectsDaughter.ttf'); } 
+</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+<style>
+ #awesome_video {    <!---------------------------------------------------------------------------CUSTOM BG VIDEO//------------------------------>
+    position:fixed;
+    top: 0;
+    left: 0;
+    border: 0;
+       z-index:-9999;
+    height: 100%;
+	width:100%;
+	 overflow-y: hidden;
+	 min-width:100%;
+	 min-height:100%;
+	
+  }
+	#videoWrap{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<body class='no-header-page wsite-background  wsite-theme-light'>
+<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+<div id="videoWrap">
+<iframe id="awesome_video" src="https://www.youtube-nocookie.com/embed/52MsVnaaNDc?rel=0&amp;controls=0&amp;showinfo=0?rel=0&autoplay=1&loop=1&playlist=52MsVnaaNDc" frameborder="0" allowfullscreen></iframe>    </div>
+   <div id="header-wrap">
+		<div class="container">			
+				<table id="header">
+					<tr> 
+						<td class="phone-number">{phone:text}</td>
+						<td id="header-right">
+							<table>
+								<tr>								
+									<td class="social">{social}</td>
+									<td class="search">{search}</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>			
+		</div><!-- end container -->
+		
+		<div id="nav-wrap">			
+			<div class="container">					
+				<table>
+					<tr>
+						<td id="logo">{logo}</td>
+						<td id="nav">{menu}</td>
+					</tr>
+				</table>
+			</div><!-- end container -->			
+		</div><!-- end nav-wrap -->
+	</div><!-- end header-wrap --> 
+
+    <div id="banner-wrap">
+        <div class="container">
+            <div id="banner">
+            
+                <div style="clear:both;"></div>
+            
+            </div><!-- end banner -->
+        </div><!-- end container -->
+    </div><!-- end banner-wrap -->
+
+    <div id="main-wrapDark"  style="font-family: 'Architects Daughter', cursive">
+        <div class="container">
+   			{content}
+        </div><!-- end container -->
+    </div><!-- end main-wrap -->
+
+    <div id="footer-wrap" style="content:hidden">
+        <div class="container">
+       		{footer}
+        </div><!-- end container -->
+    </div><!-- end footer-wrap -->
+	
+	
+	<div>                                                  <!-- custom footer http://www.webnots.com/remove-free-weebly-footer-and-customize-with-links/ -->
+		<div>
+		</div>
+	</div>
+	
+</body>
+
+</html>
+
+<style type="text/css">           
+<!--Remove footer from mobile version-->
+p {font-family: 'Architects Daughter', cursive;}
+
+@media screen {
+.wsite-footer {
+display: none;
+visibility: hidden;
+}
+
+	.wsite-footer-vertical 
+{
+display: none;
+visibility: hidden;
+}
+.wsite-app-callout
+{
+display: none;
+visibility: hidden;
+}
+
+}
+</style>
